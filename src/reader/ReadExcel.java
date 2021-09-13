@@ -18,7 +18,7 @@ public class ReadExcel {
         File inputWorkbook = new File(inputFile);
         Workbook w;
         Writer output;
-        output = new BufferedWriter(new FileWriter("C:\\Users\\maorla\\Downloads\\jsonList.txt"));  //clears file every time
+        output = new BufferedWriter(new FileWriter("ROOT:\\Users\\{{YOURUSERNAME}}\\Downloads\\{{FILENAME}}"));  //clears file every time
         try {
             w = Workbook.getWorkbook(inputWorkbook);
             // Get the first sheet
@@ -42,7 +42,7 @@ public class ReadExcel {
 
     public static void main(String[] args) throws IOException {
         ReadExcel test = new ReadExcel();
-        String fileDir = "C:\\Users\\maorla\\Downloads\\xlFileNew.xls";
+        String fileDir = "C:\\Users\\{{YOURUSERNAME}}\\Downloads\\{{FILENAME}}";
         test.setInputFile(fileDir);
         test.read();
     }
