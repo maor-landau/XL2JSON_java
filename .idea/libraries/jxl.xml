@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="jxl">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/CSharpJExcel/CSharpJExcel/jexcelapi_2_6_12/jexcelapi/jxl.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/CSharpJExcel/CSharpJExcel/jexcelapi_2_6_12/jexcelapi/jxl.jar!/" />
+    </SOURCES>
+  </library>
+</component>
